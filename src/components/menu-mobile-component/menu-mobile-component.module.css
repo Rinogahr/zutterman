@@ -1,0 +1,15 @@
+.MenuMobileContainer{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+}
+
+.MenuMobileBurgueIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    height: 100%;
+    width: 4rem;
+    font-size: 15px;
+}

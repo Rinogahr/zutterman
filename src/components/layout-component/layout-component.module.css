@@ -1,0 +1,37 @@
+@media only screen and (max-width: 786px) {
+    .container {
+        
+    }
+    .menuWeb{
+        display: none !important;
+    }
+    .menuMobile{
+        display: flex !important;
+    }
+  }
+
+.container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.menuWeb{
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+    flex-wrap: nowrap;
+    justify-content: space-between;  
+}
+
+.menuMobile{
+    display: none;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,27 @@
+@media only screen and (max-width: 786px) {
+  .btContainer{
+    font-size: 6.2px!important;
+    }
+  }
+
+.btContainer{
+  border: solid 1px red;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #846219;
+    font-family: 'RobotoCondensed';
+    font-size: 15.2px;
+    line-height: 19px;
+    font-weight: 600;
+    /* identical to box height */
+    letter-spacing: 5.4px;
+    padding-right: 5rem;
+}
+
+.btTitle{
+    width: 100%;
+    border: solid 1px rebeccapurple;
+}
+
