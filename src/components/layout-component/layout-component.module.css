@@ -1,37 +1,125 @@
-@media only screen and (max-width: 786px) {
-    .container {
-        
-    }
-    .menuWeb{
-        display: none !important;
-    }
+@media only screen and (max-width: 800px) {
+    
     .menuMobile{
         display: flex !important;
     }
-  }
+    
+    .menuWeb{
+        display: none !important;
+    }
+    
+    .containerMainTopoWeb{
+        display: none !important;
+    }
+    
+    .containerMainTopoMobile{
+        display: block !important;
+    }
+    
+    .containerMainButtonWeb{
+        display: none !important;
+    }
+    
+    .containerMainButtonMobile{
+        display: block !important;
+    }
+    
+    .containerMainFootWeb{
+        display: none !important;
+    }
+    
+    .containerMainFootMobile{
+        display: block !important;
+    }
+}
+
 
 .container{
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
 }
 
-.menuWeb{
+.menuTopo{
+    height: 5rem;
     display: flex;
-    flex-direction: row;
-    background-color: #fafafa;
-    flex-wrap: nowrap;
-    justify-content: space-between;  
+    width: 100vw;
+    background-color: #ffe7e7;
 }
 
 .menuMobile{
     display: none;
-    justify-content: space-between;
-    flex-direction: row;
+    width: 100%;
+}
+
+.menuWeb{
+    display: flex;
+    width: 100%;
+}
+
+.containerMainTopo{
+    height: 100vh;
+}
+
+.containerMainTopoWeb{
+    height: 100vh;
+    background-image: url("../../img/Group5.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.containerMainTopoMobile{
+    display: none;
+    height: 100vh;
+    background-image: url("../../img/Group6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.containerMainButton{
+    height: 100vh;
+}
+
+.containerMainButtonWeb{
+    height: 100vh;
+    background-image: url("../../img/Group8.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.containerMainButtonMobile{
+    display: none;
+    height: 100vh;
+    background-image: url("../../img/Group7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.containerMainFoot{
+    height: 50vh;
+}
+
+.containerMainFootWeb{
+    background-color: #E9E9E9; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.containerMainFootMobile{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    align-self: center;
-    justify-self: center;
+    align-content: center;
+    background-color: #E9E9E9; 
+    border: solid 1px #000;
+    
+}
+
+.containerMainFootMobile div{
+    /* border: salmon solid 1px;  */
+    
 }

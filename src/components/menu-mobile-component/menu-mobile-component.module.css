@@ -1,7 +1,6 @@
 .MenuMobileContainer{
     display: flex;
     flex-direction: column;
-    height: 10vh;
 }
 
 .MenuMobileBurgueIcon{
@@ -12,4 +11,15 @@
     height: 100%;
     width: 4rem;
     font-size: 15px;
+}
+
+.MenuMobileBurgueLateral{
+    width: 9rem;
+    height: 100vh;
+    background-color: aqua;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    left: -10rem;
+    /* MENU LATERAL QUE IRÁ ABRIR AO CLICAR NO BOTÃO DE MENU COM ICO DE 3 PONTINHOS */
 }

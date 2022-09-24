@@ -5,8 +5,7 @@
   }
 
 .btContainer{
-  border: solid 1px red;
-    width: auto;
+    width: 13rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +21,7 @@
 
 .btTitle{
     width: 100%;
-    border: solid 1px rebeccapurple;
+    text-align: center;
+    cursor: pointer;
 }
 

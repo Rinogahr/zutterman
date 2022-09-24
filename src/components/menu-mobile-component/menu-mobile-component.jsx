@@ -9,7 +9,7 @@ export default function MenuMobileComponent(){
             <div className={menuMobile.MenuMobileBurgueIcon}>
                 <img src={burguerMenuMb} alt="" srcset="" />
             </div>
-            <div>
+            <div className={menuMobile.MenuMobileBurgueLateral}>
                 {/* <ButtonComponentMobile
                 title="ABOUT US"
                 singClick={teste}/>
