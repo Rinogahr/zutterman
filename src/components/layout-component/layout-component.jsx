@@ -5,6 +5,9 @@ import {ButtonComponentWeb} from '../button-component/button-component';
 import MenuMobileComponent from "../menu-mobile-component/menu-mobile-component";
 import Group5 from '../../img/Group5.png';
 import Group6 from '../../img/Group6.png';
+import Layer_1 from '../../img/Layer_1-2-1.png';
+import Layer_2 from '../../img/Layer_1-2-2.png';
+import Layer_3 from '../../img/Layer_1-2.png';
 
 export default function LayoutComponent(){
     return(
@@ -51,28 +54,44 @@ export default function LayoutComponent(){
             <div className={Layout.containerMainFoot}>
                 
                 <div className={Layout.containerMainFootMobile}>
-                    <div>
+                    <div className={Layout.followUs}>
                        FOLLOW US 
                     </div>
-                    <div>
-                        REDES SOCIAIS
+                    <div className={Layout.containerRedes}>
+                        <div>
+                            <img src={Layer_1} alt="" srcset="" />
+                        </div>
+                        <div>
+                            <img src={Layer_2} alt="" srcset="" />
+                        </div>
+                        <div>
+                            <img src={Layer_3} alt="" srcset="" />
+                        </div>
                     </div>
-                    <div>
-                        CONTACT
-                        2490 Leisure Lane
-                        San Luis Obispo
+                    <div className={Layout.containerContact}>
+                        CONTACT <br />
+                        2490 Leisure Lane <br />
+                        San Luis Obispo <br />
                         Califonia
                     </div>
                 </div>
 
                 <div className={Layout.containerMainFootWeb}>
-                    <div>
+                    <div className={Layout.followUs}>
                        FOLLOW US 
                     </div>
-                    <div>
-                        REDES SOCIAIS
+                    <div className={Layout.containerRedes}>
+                        <div>
+                            <img src={Layer_1} alt="" srcset="" />
+                        </div>
+                        <div>
+                            <img src={Layer_2} alt="" srcset="" />
+                        </div>
+                        <div>
+                            <img src={Layer_3} alt="" srcset="" />
+                        </div>
                     </div>
-                    <div>
+                    <div className={Layout.containerContact}>
                         CONTACT <br />
                         2490 Leisure Lane <br />
                         San Luis Obispo <br />
